@@ -1,0 +1,41 @@
+*{
+  box-sizing:border-box;
+  font-weight: bold;
+}
+
+body{
+  background-color: #f8f8f8;
+  font-family: 'Noto Sans JP' sans-serif;
+  margin:0;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  transition: all 0.5s;
+}
+
+a:hover{
+  opacity: 0.7;
+  color:red;
+}
+
+h1{
+  
+}
+
+.btn:cover{
+  cursor:pointer;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+  padding:0 30px;
+}
+
+.post-wrapper{
+  height: 900px;
+  padding-top: 165px;
+  text-align: center;
+}
