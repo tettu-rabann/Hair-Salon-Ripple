@@ -8,6 +8,10 @@ This is the code for the homepage of a hair salon run by my father.
 
 ## Guest login 
 
+1.Move to the bottom of the page
+
+2.Login
+
 ID:master 
 
 Password:password 
