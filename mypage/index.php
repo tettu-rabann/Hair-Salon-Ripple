@@ -37,7 +37,6 @@ if(isset($_SESSION['user_id']) && $_SESSION['time'] + 3600 > time()){ /*ログ�
         ｜<a href="post.php">投稿を追加</a>｜
         <a href="list_of_posts.php">投稿を編集</a>｜
         <a href="../join/index.php">管理者追加画面へ</a>｜
-        <a href="reservationーbrowse">予約管理画面へ</a>｜
         <a href="logout.php">ログアウト</a>｜
 
       </div>
