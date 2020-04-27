@@ -7,8 +7,11 @@ This is the code for the homepage of a hair salon run by my father.
 ## Function
 
 ・Login & Logout
+
 ・CRUD　system　(Create,Read,Update,Delete)
+
 ・Pagination
+
 ・Original　Calendar
 
 ## environment
