@@ -20,7 +20,9 @@ dev:MacOS(MAMP)
 
 prod:Linux(Raspberry Pi 3B+),nginx,MySQL,PHP
 
-## Usage Link : https://ripple.mydns.jp
+## Usage
+
+Link : https://ripple.mydns.jp
 
 ## Guest login 
 
