@@ -50,12 +50,12 @@
         <p>当店の情報を発信しています</p>
 
         <?php
-        if(isset($_REQUEST['page']) && is_numeric($_REQUEST['page'])){
+        if(isset($_REQUEST['page']) && is_numeric($_REQUEST['page'])){ //変数pageの中身を確認
           $page = $_REQUEST['page'];
         } else {
           $page = 1;
         }
-        $start = 6*($page-1);
+        $start = 6*($page-1);//６ページ分読み取る
 
         $counts = $db->query('SELECT COUNT(*) AS cnt FROM posts ');
         $count = $counts->fetch();
@@ -63,7 +63,7 @@
 
 
 
-        $memos = $db->prepare('SELECT * FROM posts ORDER BY id DESC LIMIT ? , 6');
+        $memos = $db->prepare('SELECT * FROM posts ORDER BY id DESC LIMIT ? , 6');//登録したデータを降順で読み込む
         $memos->bindParam(1,$start,PDO::PARAM_INT);
         $memos->execute();
          ?>
