@@ -1,4 +1,4 @@
-# Hair-Salon-Ripple | Official　Homepage
+# Hair-Salon-Ripple | Official Homepage
 
 ## Overview
 
